@@ -1,32 +1,8 @@
 """
 Kyle Hanson
-Assignment 12.1 Final Project
 Feb 23, 2020
-Bellevue University
 
-Assignment:
-
-I. Create a header for your program just as you have in the past.
-
-II. Create a Python Application which asks the user for their zip code or city.
-
-III. Use the zip code or city name in order to obtain weather forecast data from OpenWeatherMap.
-
-IV. Display the weather forecast in a readable format to the user.
-
-V. Use functions including a main function.
-
-VI. Allow the user to run the program multiple times to allow them to look up weather conditions for multiple locations.
-
-VI. Validate whether the user entered valid data. If valid data isn’t presented notify the user.
-
-VII. Use the Requests library in order to request data from the webservice.
-
-VIII. Use Try blocks to ensure that your request was successful. If the connection was not successful display a message
-      to the user.
-
-IX. Use try blocks when establishing connections to the webservice. You must print a message to the user indicating
-    whether or not the connection was successful
+Design a weather forcasting application that utilizes an API to give known good data from user inputs.
 
 """
 import requests
