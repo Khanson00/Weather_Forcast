@@ -1,10 +1,6 @@
-"""
-Kyle Hanson
-Feb 23, 2020
+# Kyle Hanson
+# Feb 23, 2020
 
-Design a weather forcasting application that utilizes an API to give known good data from user inputs.
-
-"""
 import requests
 from pprint import pprint
 from datetime import date
