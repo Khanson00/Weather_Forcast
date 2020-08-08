@@ -4,12 +4,14 @@
 import requests
 from pprint import pprint
 from datetime import date
+import config
+
 
 
 # Function that that provides the URL and API Key
 def weather_data(query):
     url = 'http://api.openweathermap.org/data/2.5/weather?'
-    api_key = 'b1f79faa9454b9e17fed266144b8ce73'
+    api_key = api_key
 
     res = requests.get(url + query + ',us&units=imperial&APPID=' + api_key)
 
